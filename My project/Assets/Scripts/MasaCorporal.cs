@@ -15,9 +15,7 @@ public class MasaCorporal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(NombreDeUsuario);
-        Debug.Log(AlturaEnCentimetros);
-        Debug.Log(PesoEnKilogramo);
+    
         multiplicacion = (AlturaEnCentimetros * AlturaEnCentimetros);
         division = (PesoEnKilogramo / multiplicacion);
         Debug.Log(division);

@@ -12,7 +12,6 @@ public class MyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         Debug.Log(MyName);
         Debug.Log(Friend);
         suma = yearsOld1 + yearsOld2;
